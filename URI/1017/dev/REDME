@@ -1,0 +1,32 @@
+OPLE, Boa tarde!
+
+Na aula 17 eu usei um metodo que transforma uma parte utilizavel em anonima ao usuario. 
+                (Acontece mas o usuario não possui acesso);
+
+**** function calculation(time, velocity, media) {
+
+        NESSE LET EU USO COMO CACHE PARA GUARDAR TODOS OS DADOS QUE O USUARIO PODE TER ACESSO
+        **** let calculo = { kmTotal: undefined, spent: undefined }
+
+        NA REGRA DE NEGOCIO O USUARIO NÃO TEM ACESSO, POIS FICARIA NO SERVIDOR BACK-END
+        **** function kmTotal(time, velocity) {
+        ****     return (time * velocity).toFixed(3)
+        **** };
+        **** function spent(time, velocity, media) {
+        ****     return (kmTotal(time, velocity) / media).toFixed(3)
+        **** };
+
+        AQUI EU ATRIBUO O VALOR AO DO LET, QUE IREI RETORNAR AO ESCOPO GLOBAL 
+        **** calculo.spent = spent(time, velocity, media);
+        **** return calculo
+    };
+
+/* --- CHAMADO DO ESCOPO --- */
+var res = calculation(time, velocity, media)
+
+
+PROBLEMA:   1017 - Gasto de Combustível
+RESPOSTA:   Accepted
+LINGUAGEM:  JavaScript (nodejs 8.4.0) [+2s] {beta}
+TEMPO:  0.072s || TAMANHO:    920 Bytes
+SUBMISSÃO:  24/05/2020 17:27:43
