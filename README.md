@@ -1,7 +1,7 @@
 # URI-Judge
 ### Olá, bom estudos!
 
-###### Sou Gabriel Tenho 19 anos e esse é meu repositorio onde estou caminhando no mundo da programação com URI Judge.
+###### Sou Gabriel tenho 19 anos e esse é meu repositorio onde estou caminhando no mundo da programação com URI Judge.
 
 ![Homem Letra](http://infeduc.pbworks.com/f/Gif%20homem%20letrado.gif)
 
