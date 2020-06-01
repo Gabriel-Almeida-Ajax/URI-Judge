@@ -1,0 +1,16 @@
+parseInt(), descobri que ele perde o valor flutuante. ou seja,
+
+a = 1.01
+b = 1.01
+
+**** a + b = 2.02
+
+c = parseInt(a)
+
+**** c + b = 2.01
+
+PROBLEMA:   1019 - Conversão de Tempo
+RESPOSTA:   Accepted
+LINGUAGEM:  JavaScript (nodejs 8.4.0) [+2s] {beta}
+TEMPO:      0.056s || TAMANHO:    527 Bytes
+SUBMISSÃO:  01/06/2020 20:52:40
